@@ -1,0 +1,17 @@
+### Texto minúsculo
+POST http://localhost:3000/text/lowercase
+Content-Type: application/json
+
+{ "input": "Lorem Ipsum" }
+
+### Texto maiúsculo
+POST http://localhost:3000/text/uppercase
+Content-Type: application/json
+
+{ "input": "Lorem Ipsum" }
+
+### Número mínimo
+GET http://localhost:3000/number/minimum?input=10,1,100
+
+### Número máximo
+GET http://localhost:3000/number/maximum?input=10,1,100
