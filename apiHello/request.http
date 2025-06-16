@@ -1,0 +1,6 @@
+@hostname = 127.0.0.1
+@port = 3000
+@host = {{hostname}}:{{port}}
+
+### Requisição GET para Hello World
+GET http://{{host}}/ HTTP/1.1
