@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Busca de Informações do IP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Busca de Informações do IP</h1>
+
+  <div class="container">
+    <input type="text" id="ipInput" placeholder="Digite um IP (ex: 8.8.8.8)">
+    <button onclick="buscarIP()">Buscar</button>
+
+    <div id="erro"></div>
+
+    <table id="tabela" style="display:none">
+      <tbody id="infoIP"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
